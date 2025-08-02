@@ -1,7 +1,7 @@
 # Simple Fullstack Project
 
 Welcome to **Simple Fullstack**!  
-This project demonstrates a modern fullstack setup with a React frontend and a Node.js/Express backend.
+This project demonstrates a deployed fullstack setup with a frontend hosted on Vercel and a backend hosted on Render.
 
 ---
 
