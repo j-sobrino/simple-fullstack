@@ -10,6 +10,8 @@ This project demonstrates a modern fullstack setup with a React frontend and a N
 - **Frontend:**  
   [https://simple-fullstack-gamma.vercel.app](https://simple-fullstack-gamma.vercel.app)
 
+![Frontend Demo](./assets/frontend.png)
+
 - **Backend API:**  
   [https://simple-fullstack.onrender.com](https://simple-fullstack.onrender.com)
 
@@ -20,6 +22,8 @@ This project demonstrates a modern fullstack setup with a React frontend and a N
 Curious about reliability?  
 Check out our live uptime monitor:  
 [https://stats.uptimerobot.com/Ba7JcloLCP](https://stats.uptimerobot.com/Ba7JcloLCP)
+
+![Uptime Status](./assets/status.png)
 
 ---
 
@@ -32,5 +36,3 @@ Check out our live uptime monitor:
 
 Feel free to explore, test, and provide feedback!
 
-![Uptime Status](./assets/status.png)
-![Frontend Demo](./assets/frontend.png)
