@@ -8,7 +8,8 @@ const PORT = process.env.PORT || 3000;
 
 app.get('/api/hello', (req, res) => {
   const now = new Date();
-  res.json({ message: `Hello from backend! Current date/time: ${now.toLocaleString()}` });
+  const ukTime = now.toLocaleString('en-GB', { timeZone: 'Europe/London' });
+  res.json({ message: `Hello from backend! UK date/time: ${ukTime}` });
 });
 
 app.listen(PORT, () => {
