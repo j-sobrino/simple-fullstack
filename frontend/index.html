@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Fullstack Demo</title>
+</head>
+<body>
+  <h1>Hello from Frontend</h1>
+  <p id="response">Waiting for backend...</p>
+
+  <script>
+    // Change this to your Render/Railway backend URL
+    const API_URL = 'https://your-backend.onrender.com/api/hello';
+
+    fetch(API_URL)
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById('response').textContent = data.message;
+      })
+      .catch(err => {
+        document.getElementById('response').textContent = 'Error connecting to backend.';
+        console.error(err);
+      });
+  </script>
+</body>
+</html>
